@@ -23,7 +23,7 @@ Citizen.CreateThread(function()
         vendDrink[i] = subOption
     end
 
-    exports['bt-target']:AddTargetModel(Config.VendingDrinkModels, {
+    exports['pf-target']:AddTargetModel(Config.VendingDrinkModels, {
         options = vendDrink,
         job = {"all"},
         distance = Config.VendingDistance
@@ -48,7 +48,7 @@ Citizen.CreateThread(function()
         vendSnack[i] = subOption
     end
 
-    exports['bt-target']:AddTargetModel(Config.VendingSnackModels, {
+    exports['pf-target']:AddTargetModel(Config.VendingSnackModels, {
         options = vendSnack,
         job = {"all"},
         distance = Config.VendingDistance
@@ -75,7 +75,7 @@ Citizen.CreateThread(function()
         vendCoffee[i] = subOption
     end
 
-    exports['bt-target']:AddTargetModel(Config.VendingCoffeeModels, {
+    exports['pf-target']:AddTargetModel(Config.VendingCoffeeModels, {
         options = vendCoffee,
         job = {"all"},
         distance = Config.VendingDistance
