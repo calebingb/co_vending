@@ -13,3 +13,8 @@ Add to server.cfg:
 
 start co_vending
 ```
+
+
+Change "bt-target" to "pf-target" in vending_client
+
+Change "bt-target" in the fxmanifest to the location of pf-target
