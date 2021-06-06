@@ -16,4 +16,4 @@ start co_vending
 
 ## All code to change:
 
-Change "bt-target" in the fxmanifest to the location of pf-target
+Change "bt-target" in the fxmanifest to the location of pf-target in the resource files
